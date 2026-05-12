@@ -15,7 +15,6 @@ public class Graph {
         adjList.putIfAbsent(from, new ArrayList<>());
         adjList.putIfAbsent(to, new ArrayList<>());
         adjList.get(from).add(to);
-        // Егер undirected болса:
         adjList.get(to).add(from);
     }
 
