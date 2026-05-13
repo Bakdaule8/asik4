@@ -5,8 +5,8 @@
 This project implements a graph data structure using an adjacency list representation.
 A graph consists of:
 
- **Vertices (nodes)** — individual elements identified by an ID
- **Edges** — connections between vertices
+* **Vertices (nodes)** — individual elements identified by an ID
+* **Edges** — connections between vertices
 
 Two traversal algorithms are implemented:
 
@@ -14,7 +14,7 @@ Two traversal algorithms are implemented:
 * **Depth-First Search (DFS)** — explores as deep as possible
 
 
-## B. Class Descriptions
+B. Class Descriptions
 
 ### Vertex Class
 
