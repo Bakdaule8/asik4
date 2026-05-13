@@ -1,6 +1,6 @@
-# Graph Traversal and Representation System
+#### Graph Traversal and Representation System
 
-## A. Project Overview
+#### A. Project Overview
 
 This project implements a graph data structure using an adjacency list representation.
 A graph consists of:
@@ -54,7 +54,7 @@ Handles:
 * Testing different graph sizes
 
 
-## C. Algorithm Descriptions
+#### C. Algorithm Descriptions
 
 ### Breadth-First Search (BFS)
 
@@ -91,7 +91,7 @@ O(V + E)
 O(V + E)
 
 
-## D. Experimental Results
+#### D. Experimental Results
 
 ### Small Graph Output
 
@@ -109,7 +109,7 @@ DFS: 1 2 4 6 3 5 7
 | 100        | 1716800       | 2498400       |
 
 
-## E. Screenshots
+#### E. Screenshots
 
 (Add screenshots in docs/screenshots folder)
 
@@ -119,7 +119,7 @@ DFS: 1 2 4 6 3 5 7
 * Performance results
 
 
-## F. Analysis
+#### F. Analysis
 
 ### 1. How does graph size affect performance?
 
@@ -159,7 +159,7 @@ Execution time increases linearly with the number of vertices, which matches O(V
 * Does not guarantee shortest path
 
 
-## G. Reflection
+#### G. Reflection
 
 This assignment helped me understand how graph traversal algorithms work in practice.
 I learned the difference between BFS and DFS in terms of traversal strategy and performance.
