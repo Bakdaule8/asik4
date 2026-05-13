@@ -13,7 +13,6 @@ Two traversal algorithms are implemented:
 * **Breadth-First Search (BFS)** — explores level by level
 * **Depth-First Search (DFS)** — explores as deep as possible
 
----
 
 ## B. Class Descriptions
 
@@ -54,7 +53,6 @@ Handles:
 * Measuring execution time
 * Testing different graph sizes
 
----
 
 ## C. Algorithm Descriptions
 
@@ -75,7 +73,6 @@ Handles:
 **Time Complexity:**
 O(V + E)
 
----
 
 ### Depth-First Search (DFS)
 
@@ -93,7 +90,6 @@ O(V + E)
 **Time Complexity:**
 O(V + E)
 
----
 
 ## D. Experimental Results
 
@@ -112,7 +108,6 @@ DFS: 1 2 4 6 3 5 7
 | 30         | 526600        | 642800        |
 | 100        | 1716800       | 2498400       |
 
----
 
 ## E. Screenshots
 
@@ -123,7 +118,6 @@ DFS: 1 2 4 6 3 5 7
 * DFS traversal output
 * Performance results
 
----
 
 ## F. Analysis
 
@@ -132,21 +126,18 @@ DFS: 1 2 4 6 3 5 7
 As the graph size increases, execution time also increases.
 This is expected because both BFS and DFS visit all vertices and edges.
 
----
 
 ### 2. Which traversal is faster?
 
 * For small graphs, DFS was slightly faster
 * For larger graphs, BFS performed better
 
----
 
 ### 3. Does it match O(V + E)?
 
 Yes.
 Execution time increases linearly with the number of vertices, which matches O(V + E).
 
----
 
 ### 4. How does graph structure affect traversal order?
 
@@ -154,14 +145,12 @@ Execution time increases linearly with the number of vertices, which matches O(V
 * DFS goes deep first before backtracking
   Different structures lead to different traversal orders.
 
----
 
 ### 5. When is BFS preferred?
 
 * When shortest path is required
 * When level-wise processing is needed
 
----
 
 ### 6. What are the limitations of DFS?
 
@@ -169,7 +158,6 @@ Execution time increases linearly with the number of vertices, which matches O(V
 * May cause stack overflow in large graphs
 * Does not guarantee shortest path
 
----
 
 ## G. Reflection
 
