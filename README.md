@@ -14,7 +14,7 @@ Two traversal algorithms are implemented:
 * **Depth-First Search (DFS)** — explores as deep as possible
 
 
-B. Class Descriptions
+#### B. Class Descriptions
 
 ### Vertex Class
 
